@@ -1,0 +1,28 @@
+//
+// Layout
+//
+$content-max-width: 1140px !default;
+$gutter: 1.25rem;
+
+// Breakpoint
+$breakpoints: (
+	'xs': 0,
+	'sm': 576px,
+	'md': 768px,
+	'lg': 992px,
+	'xl': 1200px
+) !default;
+
+// TODO: Responsive padding
+
+//
+// Fonts
+//
+$base-font: 'Source Sans Pro', sans-serif !default;
+$headline-font: 'Oswald', sans-serif !default;
+
+//
+// Colors
+//
+$dark: #181B21 !default;
+$light: #EDEEF1 !default;
