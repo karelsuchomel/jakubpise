@@ -17,14 +17,18 @@ nav.main-navigation {
 			color: $dark;
 			font-family: $headline-font;
 			font-size: 1.5rem;
-			font-weight: 700;
-			&:first-child {
-				font-size: 1.875rem;
-			}
+			font-weight: 400;
 			a {
-				padding: 1rem;
+				margin: 0 2rem;
 				color: inherit;
 				text-decoration: none;
+				text-transform: uppercase;
+			}
+			&:first-child {
+				font-size: 1.875rem;
+				a {
+					margin-left: 0;
+				}
 			}
 		}
 	}

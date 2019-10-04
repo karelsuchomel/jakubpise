@@ -1,8 +1,8 @@
-'use strict'
+'use strict';
 
-const path = require('path')
-const webpack = require('webpack')
-const MiniCssExtractPlugin = require("mini-css-extract-plugin")
+const path = require('path');
+const webpack = require('webpack');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
 	externals: {
@@ -56,4 +56,4 @@ module.exports = {
 			filename: "css/[name].css",
 		})
 	]
-}
+};

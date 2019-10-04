@@ -1,2 +1,4 @@
 build/
 node_modules/
+scripts/credentials.json
+yarn-error.log
