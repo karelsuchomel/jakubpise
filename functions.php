@@ -42,3 +42,5 @@ add_action( 'admin_init', 'jp_theme_add_editor_styles' );
 require get_template_directory() . '/inc/remove_wp_emoji.php';
 // Filter administration UI
 require get_template_directory() . '/inc/filter_admin_ui.php';
+// Enqueue block editor scripts and styles
+require get_template_directory() . '/inc/custom-blocks/block-editor-scripts.php';
