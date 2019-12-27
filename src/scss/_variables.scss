@@ -13,8 +13,6 @@ $breakpoints: (
 	'xl': 1200px
 ) !default;
 
-// TODO: Responsive padding
-
 //
 // Fonts
 //
@@ -26,3 +24,10 @@ $headline-font: 'Oswald', sans-serif !default;
 //
 $dark: #1E1F1E !default;
 $light: #EDEEF1 !default;
+
+// Set Bootstrap variables
+// Incorporated libraries
+@use "inc/bootstrap/bootstrap-reboot.scss" with(
+	$gray-100: maroon,
+	$enable-responsive-font-sizes: true,
+);

@@ -1,6 +1,8 @@
 //
 // Footer
 //
+@use 'variables' as *;
+
 footer {
 	max-width: $content-max-width;
 	margin: $gutter auto

@@ -1,7 +1,12 @@
 //
 // Header
 //
+@use 'variables' as *;
+@use 'inc/bootstrap/bootstrap-reboot.scss' as rb;
+
 .site-header {
+	padding-top: 10rem;
+	background: rb.$gray-100;
 	margin: $gutter auto;
 	max-width: $content-max-width;
 }
